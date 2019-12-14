@@ -1,0 +1,22 @@
+{
+  "devDependencies": {
+    "jasmine-core": "^3.5.0",
+    "karma": "^4.3.0",
+    "karma-chrome-launcher": "^3.1.0",
+    "karma-cljs-test": "^0.1.0",
+    "karma-jasmine": "^2.0.1",
+    "karma-junit-reporter": "^2.0.1",
+    "shadow-cljs": "2.8.53"
+  },
+  "dependencies": {
+    "chart.js": "^2.8.0",
+    "create-react-class": "15.6.3",
+    "highlight.js": "9.15.10",
+    "querystring": "^0.2.0",
+    "react": "16.8.6",
+    "react-dom": "16.8.6",
+    "react-flip-move": "3.0.3",
+    "react-highlight.js": "1.0.7",
+    "url": "^0.11.0"
+  }
+}

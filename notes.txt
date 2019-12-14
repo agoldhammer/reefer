@@ -1,0 +1,14 @@
+run npx http-server in resources/public directory to start server on 8080
+
+I tested several approaches
+and logged the results here
+https://github.com/filipesilva/calva-testing (edited) 
+that repo can be used to test
+on calva's side, the test commands don't work on cljs: https://github.com/BetterThanTomorrow/calva/issues/311 (edited) 
+on shadow cljs's side two bad interactions happen with calvas repl window
+- the test output isn't shown for node repls (https://github.com/thheller/shadow-cljs/issues/373)
+- running a test build without autoron and with node-repl fails to load the namespace https://github.com/thheller/shadow-cljs/issues/587 (edited) 
+
+karma testing:
+karma start karma.conf.js --single-run
+karma.conf.js file modified as indicated
